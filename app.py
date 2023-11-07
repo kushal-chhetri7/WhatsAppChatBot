@@ -3,7 +3,7 @@ from twilio.twiml.messaging_response import MessagingResponse
 import openai
 
 app = Flask(__name__)
-openai.api_key = "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"
+
 draw_synonyms = ["draw", "paint", "image", "picture", "painting", "drawing"]
 
 de generate_image(text_prompt):
