@@ -4,6 +4,7 @@ import openai
 
 app = Flask(__name__)
 openai.api_key = ""
+
 draw_synonyms = ["draw", "paint", "image", "picture", "painting", "drawing"]
 
 def generate_image(text_prompt):
