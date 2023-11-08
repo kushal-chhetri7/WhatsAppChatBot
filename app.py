@@ -55,4 +55,3 @@ def wa_reply():
         reply.body(answer)
 
     return str(twilio_response)
-
