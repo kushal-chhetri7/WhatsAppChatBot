@@ -49,7 +49,7 @@ def wa_reply():
          img_url = generate_image(query)
          reply.media(img_url, caption = query)
 
-    else:
+    else: 
 
         answer = generate_answer(query)
         reply.body(answer)
