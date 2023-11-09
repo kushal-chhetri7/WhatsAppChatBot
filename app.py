@@ -13,7 +13,7 @@ def generate_image(text_prompt):
     n=1,
     size = "1024x1024",
     response_format="url",
-    )
+    ) 
 
     print(generation_response)
 
