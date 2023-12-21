@@ -5,7 +5,7 @@ This Application is using twilio and flask with python programming language to m
 Techs:
 Python
 Twilio
-Ngrok
+Ngrok 
 Flask 
  
 .......
